@@ -10,7 +10,7 @@
       <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{{$post->title}}</h1></a>
       <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><p class="mb-8 leading-relaxed">{{$post->excerpt}}</p></a>
       <div class="flex justify-center">
-        <a href = "{{ route('post.detail', ['slug' => $post->slug]) }}" class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Lihat Selengkapnya</a>
+        <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}" class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Lihat Selengkapnya</a>
       </div>
     </div>
   </div>
