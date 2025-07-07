@@ -21,7 +21,7 @@
         @endif
     </head>
     <body>
-    <header class="text-gray-400 bg-red-900 body-font">
+    <header class="text-gray-400 bg-black-900 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
        <a href="{{url('/')}}"> <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/assets/images/logo/honda.svg"
@@ -34,7 +34,7 @@
         <a href="{{url('penulis')}}" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Penulis
         </a>
         </nav>
-        <a href="https://praktekfilabelanugrah-production.up.railway.app/admin/login" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Login
+        <a href="https://praktekfilabelanugrah-production.up.railway.app/admin/login" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-white-700 rounded text-base mt-4 md:mt-0">Login
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
