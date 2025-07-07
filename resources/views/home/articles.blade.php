@@ -4,7 +4,7 @@
 <section class="text-gray-400 bg-white-900 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-      <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><img class="object-cover object-center rounded" src="{{$post->getFirstMediaUrl('featured_images')  != '' ? $post->getFirstMediaUrl('featured_images') : "https://dummyimage.com/722x402 "}}" /></a>
+      <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><img class="object-cover object-center rounded" src="{{$featured_post->getFirstMediaUrl('featured_image')}}" /></a>
     </div>
     <div id ="blog-content" class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{{$post->title}}</h1></a>

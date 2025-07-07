@@ -70,7 +70,7 @@
       @foreach($post_list as $post)
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{$featured_post->getFirstMediaUrl('featured_image') != '' ? $post->getFirstMediaUrl('featured_images') : "https://dummyimage.com/722x402 "}}" alt="blog">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="{{$featured_post->getFirstMediaUrl('featured_image')}}" alt="blog">
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">{{$post->title}}</h1>
