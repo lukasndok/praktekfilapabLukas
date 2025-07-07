@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-<section class="text-gray-400 bg-gray-900 body-font">
+<section class="text-gray-400 bg-white-900 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-col">
     <div class="lg:w-4/6 mx-auto">
       <div class="rounded-lg h-full overflow-hidden">

@@ -6,7 +6,7 @@
 
         <title>{{config('app.name')}}</title>
 
-        <link rel="icon" href="https://th.bing.com/th/id/ODLS.918c2fa3-4c3b-4b1b-8e15-d406740f178e?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" type="image/x-icon">
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAALVBMVEXuIy7uIy7tIy7tIy7//v7tEiHsAA/6yMj1j5D3qKj719fzdnj4trfxWFz96+uAseG1AAAAA3RSTlPi6fhsyvKbAAABPUlEQVQ4jbWTWXbDMAhF04hRDPtfbkE6duM0yVfLkWVbXEB62Lf7/T4+2e2j918BRPsE0FAQfAcghQMkvcmAZBMA/PUesHMDsBm/AnZwe+HYwQOwg6dIeetGTxlWcGp7UyuF4RVAgXQtxEU8q8yZYAMY4FVdl3Oq2I//KFHAXIhUHojxDKAtogWYLgN/AYOKyDmZfdCj+/EUUPq2KZZVs65AHc3DPVRDpabw46AboOnsEAE61UUHxIRrhlZQuEakKLvyYL60mxAJiXrCNc69NlBvR0PKiLovtGwDmCXtiiUWr7OEJtVaqUoNoCRBFY5pxDwdpLwjDQh2CVQmYIXJQJypwAgsmbXaklaJAK4mALPtEtyaVgYEqc+m9xA6ImRooIWFiMUQG/UUcbR7XbinFrqVxt2zP/j1vk67vbRvyEsTdx0qjFwAAAAASUVORK5CYII=" type="image/x-icon">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -21,10 +21,10 @@
         @endif
     </head>
     <body>
-    <header class="text-gray-400 bg-gray-900 body-font">
+    <header class="text-gray-400 bg-red-900 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-       <a href="{{url('/')}}"> <img src="https://asia.pokemon-card.com/id/wp-content/themes/pcg_theme_id/images/header/logo.svg"
+       <a href="{{url('/')}}"> <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/assets/images/logo/honda.svg"
      alt="Logo"
      class="w-100 h-10 p-full bg-transpant-500 rounded-full object-contain" /> </a>
         </a>
@@ -45,14 +45,14 @@
 @yield('content')
 
 
-    <footer class="text-gray-400 bg-gray-900 body-font">
+    <footer class="text-gray-400 bg-red-900 body-font">
     <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap md:text-left text-center order-first">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">Pokemon</a>
+                <a class="text-gray-400 hover:text-white">Sepeda Motor</a>
             </li>
             </nav>
         </div>
@@ -60,7 +60,7 @@
             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">TAGS</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">Ikatan Takdir</a>
+                <a class="text-gray-400 hover:text-white">Honda</a>
             </li>
             </nav>
         </div>

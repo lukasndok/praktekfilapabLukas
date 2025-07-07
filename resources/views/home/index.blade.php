@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-<section class="text-gray-400 bg-gray-900 body-font">
+<section class="text-gray-400 bg-white-900 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
       <a href = "{{ route('post.detail', ['slug'=> $featured_post->slug]) }}"><img class="object-cover object-center rounded" src="{{$featured_post->getFirstMediaUrl('featured_image')}}" /></a>
